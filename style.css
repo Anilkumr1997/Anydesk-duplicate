@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header input{
+    width: 1250px;
+    margin-left: 5px;
+    padding: 3px;
+    padding-left: 15px;
+    display: inline-block;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-weight: thin;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.45);
+    
+}
+.header{
+    background-color: #efefef;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.header .arow-icon{
+    position: relative;
+    top: 0;
+    left: -70px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.header .arrow-right{
+    position: relative;
+    top: 0;
+    left: -60px;
+    font-size: 15px;
+}
+.header .bar-icon{
+    position: relative;
+    top: 0;
+    left: -30px;
+    font-size: 20px;
+}
+.correct-icon{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+    color: green;
+}
+.license-text{
+    background-color: red;
+    font-size: 16px;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.license-description{
+    padding-top: 11px;
+    font-weight: 500;
+}
+.license-description a{
+    color: #fff;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+.license-description a:hover{
+    color: #fff;
+} 
+
+.your-address p{
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: context-menu;
+}
+.your-address p:hover{
+    color: red;
+}
+.your-address p span{
+    color: red;
+    font-size: 50px;
+    font-weight: 400;
+}
+.your-address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-tag{
+    margin-left: 15px;
+    margin-top: 25px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.info-tag:hover{
+    color: red;
+}
+
+
+.invite-btn{
+    margin-top: 25px;
+    margin-left: 25px;
+    color: red;
+    border: 1px solid red;
+    padding: 3px 11px;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+.invite-btn:hover{
+    background: rgb(233, 11, 11);
+    color: #fff;
+    text-decoration: none;
+}
+.invite-btn i:hover{
+    color: #fff;
+}
+
+
+
+.simple-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.simple-nav ul{
+    display: flex;
+    list-style: none;
+}
+.simple-nav ul li{
+    margin-left: 20px;
+    cursor: context-menu;
+}
+.links{
+    font-size: 18px;
+    opacity: 0.6;
+    font-weight: 100;
+}
+.link1{
+    color: red;
+    font-weight: bold;
+    font-size: 19px;
+    opacity: 1;
+}
+.link3{
+    color: rgb(146, 146, 146);
+    font-size: 19px;
+    opacity: 1;
+    font-weight: 100;
+}
+
+
+
+
+
+
+.menus{
+    margin-right: 25px;
+}
+.menus i{
+
+    margin-left: 18px;
+}
+.grid{
+    font-size: 20px;
+    opacity: 0.3;
+}
+.grid:hover{
+    opacity: 0.7;
+}
+.list:hover{
+    opacity: 0.8;
+}
+.bar{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.list{
+    font-size: 20px;
+    opacity: 0.3;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-top: 10px;
+}
+.news-line{
+    margin: 10px 20px;
+    margin-left: 18px;
+}
+.news-line p{
+    margin-bottom: 0 !important;
+    padding-bottom: 5px !important;
+    border-bottom: 1px solid rgb(201, 195, 195);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(156, 153, 153);
+    
+}
+.cards-news{
+    display: flex;
+    padding: 10px 20px;
+    
+}
+.card{
+    height: 180px;
+    width: 300px;
+    margin-right: 15px;
+    padding:18px !important;
+    font-weight: 100;
+
+}
+.card h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-1{
+    background-color: rgb(248, 61, 61) !important;
+    /* opacity: 0.9; */
+    color: #fff;
+    font-weight: 100;
+}
+.card-3{
+    background-color: rgb(87, 87, 255) !important;
+    color: #fff;
+    font-weight: 100;
+}
+.card a{
+    color: #fff;
+    text-align: right;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 2px;
+    text-decoration: underline;
+}
+.card-3 a{
+    margin-top: 10px;
+    font-weight: 100;
+}
+.card a:hover{
+    cursor: pointer;
+    color: #fff;
+
+}
+.card i{
+    font-size: 13px;
+}
+
